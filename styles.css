@@ -1,39 +1,80 @@
-img {
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-    width: 250px;
-}
+    width: 200px;
+  }
 
+.Alberto {
+    text-align: center;
+}
 
 .category {
     text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
     font-family: monospace;
     font-size: 24px;
     font-weight: bold;
     background-color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .list {
     text-align: center;
 }
 
+.li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+    font-size: 18px;
+}
+
 .linkedin {
     background-color:cyan;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 510px;
+    margin-right: 510px;
+}
+
+.category.dev {
+    background-color: aquamarine;
+}
+
+.answer {
+    text-align:justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.answer.two {
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .intro {
     text-align: center;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cutre {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-}
-
-.enproceso {
-text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
